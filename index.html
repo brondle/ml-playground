@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ML Playground</title>
+  </head>
+  <body>
+    <select onchange="location = '?mode=' + this.options[this.selectedIndex].value">
+      <option disabled selected value="/">Jump to mode...</option>
+      <option value="">Default</option>
+      <option value="load_foods">Load Foods</option>
+    </select>
+
+    <div id="root"></div>
+    <script src="mainDev.js"></script>
+  </body>
+</html>
